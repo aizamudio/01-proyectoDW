@@ -39,19 +39,23 @@ button {
 
 }
 .logo {
-    width: 5%;
+    width: 10%;
 }
-.logo > img {
-    width: 5%;
+
+.logo img {
+    width: 15%;
 }
 
 .navbar {
-    width: 70%;
     text-align:center;
     color: #025157;
     font-weight: 500;
-    box-sizing: 10px;
 }
+
+.navbar-brand img {
+  width: 50%;
+}
+
 li {
     display: inline;
 }
@@ -63,7 +67,6 @@ li {
 }
 
 .actions {
-    width: 15%;
     text-align:right;
     font-size: 14px;
     font-weight: 600;
@@ -89,20 +92,28 @@ li {
   .promo {
       display: inline-block;
       display: flex;
-      width: 80%;
-      margin: 100px auto;
+      width: 90%;
+      margin: 200px auto; /* Checar el tema de los margenes */
       align-items: center;
     }
 
   .publish {
-    padding: 20px;
+    padding: 10px;
     }
 
   .publish h3 {
-      font-family: "Alegreya", serif;
-      font-size: 40px;
-      line-height: 48px;
-      color: #025157;
+    text-align: center;
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+    }
+
+  .publish img {
+      width: 80%;
+      height: 80%;
+      display: block;
+      margin: auto;
     }
 
   .publish > p {
@@ -121,11 +132,13 @@ li {
     color: #025157;
     margin-right: 18px;
     }
+
 .explanatory-video {
     display: flex;
     flex-direction: column;
     align-items: center;
     }
+
 .explanatory-video img {
     width: 80px;
     margin-top: 10px;
