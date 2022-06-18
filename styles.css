@@ -15,6 +15,14 @@ button {
     background-color: #025157;
 }
 
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+}
+
 .header {
     display:inline-block;
     margin: 40px 20px 0;
@@ -42,6 +50,7 @@ button {
     text-align:center;
     color: #025157;
     font-weight: 500;
+    box-sizing: 10px;
 }
 li {
     display: inline;
@@ -80,13 +89,13 @@ li {
   .promo {
       display: inline-block;
       display: flex;
-      width: 70%;
+      width: 80%;
       margin: 100px auto;
       align-items: center;
     }
 
   .publish {
-    /*display: flex;*/
+    padding: 20px;
     }
 
   .publish h3 {
@@ -104,14 +113,103 @@ li {
       margin-bottom: 20px;
     }
 
-  .publish > form {
+.publish > form {
       display: flex;
     }
 
-  .publish > form p {
-      color: #025157;
-      margin-right: 18px;
+.publish > form p {
+    color: #025157;
+    margin-right: 18px;
     }
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.explanatory-video img {
+    width: 80px;
+    margin-top: 10px;
+    }
+
+.features {
+    background-color: #025157;
+    padding: 5% 10%;
+    display: grid;
+    grid-template: repeat(3, 330px) / repeat(3, 1fr);
+    }
+
+.features .feature-card {
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .features .feature-card .feature-content {
+    padding: 30px 20px 40px 40px;
+    flex: 2;
+  }
+  
+  .features .feature-card .feature-content > * {
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+  
+  .features .feature-card .feature-content img {
+    width: 50px;
+  }
+  
+  .features .feature-card .feature-content h3 {
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+  }
+  
+  .features .feature-card .feature-content p {
+    font-size: 16px;
+    color: #7e7e7e;
+    font-weight: 400;
+  }
+  
+  .features .feature-card .feature-content a {
+    font-size: 16px;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .features .feature-card .feature-image {
+    flex: 1;
+    width: 40%;
+    position: relative;
+    right: -50px;
+    height: 80%;
+  }
+  
+  .features .feature-card .feature-image figure,
+  .features .feature-card .feature-image img {
+    margin-top: 0;
+    height: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .main {
     text-align: justify;
@@ -124,7 +222,6 @@ li {
   }
 
 .promo2 {
-    display: inline-block;
     display: flex;
     width: 70%;
     margin: 100px auto;
@@ -132,7 +229,7 @@ li {
   }
 
 .publish2 {
-    /*display: flex;*/
+    display: flex;
   }
 
 .publish2 > p {
