@@ -20,7 +20,6 @@ button {
     top: 0;
     left: 0;
     right: 0;
-    /*background-color: #fffbf7;*/
     background-color: navy;
 }
 
@@ -221,6 +220,11 @@ li {
     display: block;
     margin: auto;
   }
+
+.carrusel-testimonios {
+  width: 80%;
+  margin: 100px auto;
+}
 
 .promo2 {
     display: flex;
