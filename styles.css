@@ -134,6 +134,10 @@ li {
     margin-right: 18px;
     }
 
+.email-boton:hover {
+  background-color: blue;
+}
+
 .explanatory-video {
     display: flex;
     flex-direction: column;
@@ -150,9 +154,6 @@ li {
   margin: 100px auto;
   text-align: center;
   align-items: center;
-}
-.carrusel-card {
-  /*display:flex;*/
 }
 
 .features {
@@ -234,6 +235,7 @@ li {
 .carrusel-testimonios {
   width: 80%;
   margin: 100px auto;
+  align-items:stretch;
 }
 
 .promo2 {
@@ -258,6 +260,10 @@ li {
 .publish2 > form {
     display: flex;
   }
+
+.email-boletin:hover {
+  background-color: blue;
+}
 
 .pie-pagina {
     margin-top: 50px;

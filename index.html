@@ -11,10 +11,8 @@
       <link rel="stylesheet" href="styles.css">
       <link rel="stylesheet" href="responsive.css">
     </head>
-    
     <body><!-- Esto es lo que verá el navegador web -->
-        <!-- Header con barra de navegación -->
-      <section class="fixed-header">
+      <section class="fixed-header"><!-- Header con barra de navegación -->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -151,7 +149,7 @@
           <form>
             <div>
               <input type="text" placeholder="Ingrese su email" />
-              <button>Enviar</button>
+              <button class="email-boton">Enviar</button>
             </div>
           </form>
         </article>
@@ -175,274 +173,230 @@
           />
         </article>
       </section>
-
-    <section class="carrusel-categorias">
-
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
-        </div>
-
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-
+      <section class="carrusel-categorias">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
               <img src="images/productos/sillagamer-01.jpg" class="card-img-top" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5 class="card-title">Sillas gaming</h5>
                 <p class="card-text"></p>
                 <a href="#" class="btn btn-primary">Mas información</a>
               </div>
-
-          </div>
-          <div class="carousel-item">
-            <img src="images/productos/multifuncional.jpg" class="d-block w-100" alt="2">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Impresoras multifuncionales</h5>
-              <p class="card-text"></p>
-              <a href="#" class="btn btn-primary">Mas información</a>
+            </div>
+            <div class="carousel-item">
+              <img src="images/productos/multifuncional.jpg" class="d-block w-100" alt="2">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Impresoras multifuncionales</h5>
+                <p class="card-text"></p>
+                <a href="#" class="btn btn-primary">Mas información</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/productos/table-01.jpg" class="d-block w-100" alt="3">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Tables</h5>
+                <p class="card-text"></p>
+                <a href="#" class="btn btn-primary">Mas información</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/productos/laptop-01.jpg" class="d-block w-100" alt="4">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Laptops</h5>
+                <p class="card-text"></p>
+                <a href="#" class="btn btn-primary">Mas información</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/productos/celular-01.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Teléfonos celulares</h5>
+                <p class="card-text"></p>
+                <a href="#" class="btn btn-primary">Mas información</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/productos/smarttv-01.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Smart TV</h5>
+                <p class="card-text"></p>
+                <a href="#" class="btn btn-primary">Mas información</a>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="images/productos/table-01.jpg" class="d-block w-100" alt="3">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Tables</h5>
-              <p class="card-text"></p>
-              <a href="#" class="btn btn-primary">Mas información</a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/productos/laptop-01.jpg" class="d-block w-100" alt="4">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Laptops</h5>
-              <p class="card-text"></p>
-              <a href="#" class="btn btn-primary">Mas información</a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/productos/celular-01.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Teléfonos celulares</h5>
-              <p class="card-text"></p>
-              <a href="#" class="btn btn-primary">Mas información</a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/productos/smarttv-01.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Smart TV</h5>
-              <p class="card-text"></p>
-              <a href="#" class="btn btn-primary">Mas información</a>
-            </div>
-          </div>
-
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
-    </section>
-
-        <section class="features">
-            <article class="feature-card">
-              <div class="feature-content">
-                <figure>
-                  <img
-                    src="images/beneficios/envio-domicilio.png"
-                    alt="Domicilio"
-                  />
-                </figure>
-                <h3>Envios a domicilio.</h3>
-                <p>Entrega inmediata y gGratis en artículos seleccionados</p>
-              </div>
-            </article>
-            <article class="feature-card">
-              <div class="feature-content">
-                <figure>
-                  <img
-                    src="images/beneficios/entregas-mexico.png"
-                    alt="Site traffic icon"
-                  />
-                </figure>
-                <h3>Entregas a todo México.</h3>
-                <p>Servicio de envío con cobertura nacional.</p>
-              </div>
-            </article>
-            <article class="feature-card">
-              <div class="feature-content">
-                <figure>
-                  <img
-                    src="images/beneficios/soporte-linea.png"
-                    alt="Capture icon"
-                  />
-                </figure>
-                <h3>Soporte en línea 24/7</h3>
-                <p>Contamos con diversos canales de comunicación.</p>
-                <a href="">Contactenos</a>
-              </div>
-            </article>
-            <article class="feature-card">
-              <div class="feature-content">
-                <figure>
-                  <img
-                    src="images/beneficios/devol-garant.png"
-                    alt="ROI icon"
-                  />
-                </figure>
-                <h3>Devoluciones garantizadas</h3>
-                <p>Todos los productos cuentan con garantía por parte del fabricante.</p>
-              </div>
-            </article>
-            <article class="feature-card">
-                <div class="feature-content">
-                  <figure>
-                    <img
-                      src="images/beneficios/compra-segura.png"
-                      alt="Publish icon"
-                    />
-                  </figure>
-                  <h3>Compra de forma segura.</h3>
-                  <p>Contamos con formas de pago 100% seguras.</p>
-                </div>
-              </article>
-              <article class="feature-card">
-                <div class="feature-content">
-                  <figure>
-                    <img
-                      src="images/beneficios/mejores marcas.jpg"
-                      alt="Site traffic icon"
-                    />
-                  </figure>
-                  <h3>Las mejores marcas.</h3>
-                  <p>Contamos en nuestro catálogo con las mejores marcas del mercado.</p>
-                </div>
-              </article>
-              <article class="feature-card">
-                <div class="feature-content">
-                  <figure>
-                    <img
-                      src="images/beneficios/best-seller.png"
-                      alt="Capture icon"
-                    />
-                  </figure>
-                  <h3>Productos mas vendidos.</h3>
-                  <p>Sepa cuales son las marcas mas vendidas.</p>
-                </div>
-              </article>
-              <article class="feature-card">
-                <div class="feature-content">
-                  <figure>
-                    <img
-                      src="images/beneficios/mejores ofertas.jpg"
-                      alt="ROI icon"
-                    />
-                  </figure>
-                  <h3>Ofertas hot.</h3>
-                  <p>Continuamente te traemos las mejores ofertas</p>
-                </div>
-              </article>
-              <article class="feature-card">
-                <div class="feature-content">
-                  <figure>
-                    <img
-                      src="images/beneficios/ultimo-llegar.png"
-                      alt="Publish icon"
-                    />
-                  </figure>
-                  <h3>Lo que acaba de llegar.</h3>
-                  <p>Le traemos los productos mas novedosos.</p>
-                </div>
-              </article>
-          </section>
-
-        <section class="carrusel-testimonios">
-          <div class="card-group">
-            <div class="card border rounded p-3">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Los productos siempre llegan en tiempo y sin daño.</h5>
-                <p class="card-text">Algunas veces están un poco más baratos en otros sitios, sin embargo tardan más.</p>
-                <p class="card-text"><small class="text-muted">17/06/2022 a las 12:09</small></p>
-              </div>
+      </section>
+      <section class="features">
+        <article class="feature-card">
+          <div class="feature-content">
+            <figure>
+              <img src="images/beneficios/envio-domicilio.png" alt="Domicilio" />
+            </figure>
+            <h3>Envios a domicilio.</h3>
+            <p>Entrega inmediata y gGratis en artículos seleccionados</p>
+          </div>
+        </article>
+        <article class="feature-card">
+          <div class="feature-content">
+            <figure>
+              <img src="images/beneficios/entregas-mexico.png" alt="Entregas nacionales" />
+            </figure>
+              <h3>Entregas a todo México.</h3>
+              <p>Servicio de envío con cobertura nacional.</p>
+          </div>
+        </article>
+        <article class="feature-card">
+          <div class="feature-content">
+            <figure>
+              <img src="images/beneficios/soporte-linea.png" alt="Soporte en línea" />
+            </figure>
+            <h3>Soporte en línea 24/7</h3>
+            <p>Contamos con diversos canales de comunicación.</p>
+            <a href="">Contactenos</a>
+          </div>
+        </article>
+        <article class="feature-card">
+          <div class="feature-content">
+            <figure>
+              <img src="images/beneficios/devol-garant.png" alt="Garantía" />
+            </figure>
+            <h3>Devoluciones garantizadas</h3>
+            <p>Todos los productos cuentan con garantía por parte del fabricante.</p>
+          </div>
+        </article>
+        <article class="feature-card">
+          <div class="feature-content">
+            <figure>
+              <img src="images/beneficios/compra-segura.png" alt="Compra segura" />
+            </figure>
+            <h3>Compra de forma segura.</h3>
+            <p>Contamos con formas de pago 100% seguras.</p>
+          </div>
+        </article>
+        <article class="feature-card">
+          <div class="feature-content">
+            <figure>
+              <img src="images/beneficios/mejores marcas.jpg" alt="Las mejores marcas" />
+            </figure>
+            <h3>Las mejores marcas.</h3>
+            <p>Contamos en nuestro catálogo con las mejores marcas del mercado.</p>
+          </div>
+        </article>
+        <article class="feature-card">
+          <div class="feature-content">
+            <figure>
+              <img src="images/beneficios/best-seller.png" alt="Los más vendidos" />
+            </figure>
+            <h3>Productos mas vendidos.</h3>
+            <p>Sepa cuales son las marcas mas vendidas.</p>
+          </div>
+        </article>
+        <article class="feature-card">
+          <div class="feature-content">
+            <figure>
+              <img src="images/beneficios/mejores ofertas.jpg" alt="mas mejores ofertas" />
+            </figure>
+            <h3>Ofertas hot.</h3>
+            <p>Continuamente te traemos las mejores ofertas</p>
+          </div>
+        </article>
+        <article class="feature-card">
+          <div class="feature-content">
+            <figure>
+              <img src="images/beneficios/ultimo-llegar.png" alt="Novedades" />
+            </figure>
+            <h3>Lo que acaba de llegar.</h3>
+            <p>Le traemos los productos mas novedosos.</p>
+          </div>
+        </article>
+      </section>
+      <section class="carrusel-testimonios">
+        <div class="card-group">
+          <div class="card border rounded p-3">
+            <img src="images/testimonios/woman-ge2de9de23_640.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Los productos siempre llegan en tiempo y sin daño.</h5>
+              <p class="card-text">Algunas veces están un poco más baratos en otros sitios, sin embargo tardan más.</p>
+              <p class="card-text"><small class="text-muted">17/06/2022 a las 12:09</small></p>
             </div>
-            <div class="card">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Servicio eficiente</h5>
-                <p class="card-text">Hasta ahora funciona correctamente, el precio me pareció muy barato, lo que me hizo desconfiar, pero hasta ahora ha funcionado conforme a lo descrito en las especificaciones.</p>
-                <p class="card-text"><small class="text-muted">06/06/2022 a las 17:59</small></p>
-              </div>
+          </div>
+          <div class="card">
+            <img src="images/testimonios/man-gf6ec3dc62_640.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Servicio eficiente</h5>
+              <p class="card-text">Hasta ahora funciona correctamente, el precio me pareció muy barato, lo que me hizo desconfiar, pero hasta ahora ha funcionado conforme a lo descrito en las especificaciones.</p>
+              <p class="card-text"><small class="text-muted">06/06/2022 a las 17:59</small></p>
             </div>
-            <div class="card">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Buen servicio y confiable</h5>
-                <p class="card-text">Hice un pedido, pagué y revisé y habia un error en una especificación, cancelé el pedido y me reembolsaron lo pagado sin demoras.
-                  Posteriormente hice el pedido correcto y llegó muy rápido..</p>
-                <p class="card-text"><small class="text-muted">05/06/2022 a las 14:18</small></p>
+          </div>
+          <div class="card">
+            <img src="images/testimonios/student-gdc949fad6_640.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Buen servicio y confiable</h5>
+              <p class="card-text">Hice un pedido, pagué y revisé y habia un error en una especificación, cancelé el pedido y me reembolsaron lo pagado sin demoras.
+                Posteriormente hice el pedido correcto y llegó muy rápido..</p>
+              <p class="card-text"><small class="text-muted">05/06/2022 a las 14:18</small></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="promo2"> <!-- Suscripción al bolentin de noticias -->
+        <article class="publish2">
+          <p>Suscríbete a nuestro boletín</p>
+          <form>
+            <div>
+              <input type="text" placeholder="Ingrese su email" />
+              <button class="email-boletin">Enviar</button>
+            </div>
+          </form>
+        </article>
+      </section>
+      <footer>
+        <section class="pie-pagina">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <h3>Compra también por teléfono ¡Lamanos!</h3>
+                <p>55-xxxx-xxxx</p>
+              </div>
+              <div class="col">
+                <h3>Políticas de venta</h3>
+                <p>Políticas de venta</p>
+                <p>Aviso de privacidad</p>
+                <p>Términos y condiciones</p>
+                <p>Sobre nosotros</p>
+              </div>
+              <div class="col">
+                <h3>Servicios al cliente</h3>
+                <p>Política de devoluciones</p>
+                <p>Solicita tu factura</p>
+                <p>Facturación y formas de pago</p>
+                <p>PROFECO</p>
               </div>
             </div>
           </div>
         </section>
-
-        <section class="promo2"> <!-- Suscripción al bolentin de noticias -->
-            <article class="publish2">
-                <p>Suscríbete a nuestro boletín</p>
-                <form>
-                    <div>
-                        <input type="text" placeholder="Ingrese su email" />
-                        <button>Enviar</button>
-                    </div>
-                </form>
-            </article>
-        </section>
-
-        <footer> <!-- Pie de página-->
-          <section class="pie-pagina">
-            <div class="container">
-              <div class="row">
-                <div class="col">
-                  <h3>Compra también por teléfono ¡Lamanos!</h3>
-                  <p>55-xxxx-xxxx</p>
-                </div>
-                <div class="col">
-                  <h3>Políticas de venta</h3>
-                  <p>Políticas de venta</p>
-                  <p>Aviso de privacidad</p>
-                  <p>Términos y condiciones</p>
-                  <p>Sobre nosotros</p>
-                </div>
-                <div class="col">
-                  <h3>Servicios al cliente</h3>
-                  <p>Política de devoluciones</p>
-                  <p>Solicita tu factura</p>
-                  <p>Facturación y formas de pago</p>
-                  <p>PROFECO</p>
-                </div>
-              </div>
-            </div>
-          </section>
-
-        </footer>
-
+      </footer>
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous">
       </script>
-
-
     </body>
-
 </html>
