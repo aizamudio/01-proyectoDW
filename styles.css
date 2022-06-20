@@ -145,6 +145,11 @@ li {
     margin-top: 10px;
     }
 
+.carrusel-categorias {
+  width: 50%;
+  margin: 100px auto;
+}
+
 .features {
     background-color: blue;
     padding: 5% 10%;
