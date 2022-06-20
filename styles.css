@@ -20,7 +20,8 @@ button {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #fffbf7;
+    /*background-color: #fffbf7;*/
+    background-color: navy;
 }
 
 .header {
@@ -146,7 +147,7 @@ li {
     }
 
 .features {
-    background-color: #025157;
+    background-color: blue;
     padding: 5% 10%;
     display: grid;
     grid-template: repeat(3, 330px) / repeat(3, 1fr);
