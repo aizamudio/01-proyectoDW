@@ -93,3 +93,10 @@ li {
     border: 0;
     border-radius: 5px;
   }
+
+.header-soporte {
+    text-align: justify;
+    width: 90%;
+    margin: 200px auto; /* Checar el tema de los margenes */
+    align-items: center;
+}
