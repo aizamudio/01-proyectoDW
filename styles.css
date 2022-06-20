@@ -148,6 +148,11 @@ li {
 .carrusel-categorias {
   width: 50%;
   margin: 100px auto;
+  text-align: center;
+  align-items: center;
+}
+.carrusel-card {
+  /*display:flex;*/
 }
 
 .features {
